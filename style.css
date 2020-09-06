@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+}
+
+#carousel3d {
+    height: 300px;
+    background-image: linear-gradient(black, whitesmoke);
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius: 12px;
+    -webkit-perspective: 800;
+    -webkit-perspective-origin: 50% 50%;
+}
+
+#carousel3d .button {
+    height: 10px;
+    width: 100px;
+    align-self: flex-end;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#carousel3d .img {
+    position: absolute;
+    top: 15%;
+    height: 200px;
+    width: 840px;
+    border: 1px solid white;
+    -webkit-border-radius: 12px;
+    -webkit-box-sizing: border-box;
+    background-color: white;
+    -webkit-transition: -webkit-transform 1.5s, opacity 2s;
+}
+
+#carousel3d > .n-5 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-710px); animation: light5 3s linear infinite; z-index: 1;}
+#carousel3d > .n-4 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-690px); animation: light4 3s linear infinite; z-index: 2;}
+#carousel3d > .n-3 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-670px); animation: light3 3s linear infinite; z-index: 3;}
+#carousel3d > .n-2 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-650px); animation: light2 3s linear infinite; z-index: 4;}
+#carousel3d > .n-1 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-630px); animation: light1 3s linear infinite; z-index: 5;}
+#carousel3d > .n0 {animation: light0 3s linear infinite; z-index: 6;}
+#carousel3d > .n1 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-630px); animation: light1 3s linear infinite; z-index: 5;}
+#carousel3d > .n2 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-650px); animation: light2 3s linear infinite; z-index: 4;}
+#carousel3d > .n3 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-670px); animation: light3 3s linear infinite; z-index: 3;}
+#carousel3d > .n4 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-690px); animation: light4 3s linear infinite; z-index: 2;}
+#carousel3d > .n5 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-710px); animation: light5 3s linear infinite; z-index: 1;}
+
+@keyframes light0 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    14%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    28%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
+@keyframes light1 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    14%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    28%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    42%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
+@keyframes light2 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    28%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    42%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    56%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
+@keyframes light3 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    42%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    56%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    70%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
+@keyframes light4 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    56%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    70%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    84%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
+@keyframes light5 {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    70%  {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+    84%  {-webkit-box-shadow: 0px 0px 50px 0px aqua;}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
+}
