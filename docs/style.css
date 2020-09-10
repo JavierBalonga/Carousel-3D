@@ -29,23 +29,23 @@ body {
     -webkit-border-radius: 12px;
     -webkit-box-sizing: border-box;
     background-color: white;
-    -webkit-transition: -webkit-transform 1.5s, z-index 0.1s;
+    -webkit-transition: -webkit-transform 1.5s, width 1.5s;
 }
 @media (max-width: 1300px) {
     .carousel3d > .n0 {width: 64vw;}
 }
 
-.carousel3d > .n-5 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-37vw); animation: light5 3s linear infinite; z-index: 6;}
-.carousel3d > .n-4 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-36vw); animation: light4 3s linear infinite; z-index: 7;}
-.carousel3d > .n-3 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-35vw); animation: light3 3s linear infinite; z-index: 8;}
-.carousel3d > .n-2 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-34vw); animation: light2 3s linear infinite; z-index: 9;}
-.carousel3d > .n-1 {-webkit-transform: rotateY(90deg) translate3d(215px,0,-33vw); animation: light1 3s linear infinite; z-index: 10;}
-.carousel3d > .n0 {-webkit-transform: translate3d(0,0,0);animation: light0 3s linear infinite; z-index: 11;}
-.carousel3d > .n1 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-33vw); animation: light1 3s linear infinite; z-index: 10;}
-.carousel3d > .n2 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-34vw); animation: light2 3s linear infinite; z-index: 9;}
-.carousel3d > .n3 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-35vw); animation: light3 3s linear infinite; z-index: 8;}
-.carousel3d > .n4 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-36vw); animation: light4 3s linear infinite; z-index: 7;}
-.carousel3d > .n5 {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-37vw); animation: light5 3s linear infinite; z-index: 6;}
+.carousel3d > .n-5 {-webkit-transform: rotateY( 90deg) translate3d( 215px,0,-37vw); animation: light5 3s linear infinite; z-index: 1;}
+.carousel3d > .n-4 {-webkit-transform: rotateY( 90deg) translate3d( 215px,0,-36vw); animation: light4 3s linear infinite; z-index: 2;}
+.carousel3d > .n-3 {-webkit-transform: rotateY( 90deg) translate3d( 215px,0,-35vw); animation: light3 3s linear infinite; z-index: 3;}
+.carousel3d > .n-2 {-webkit-transform: rotateY( 90deg) translate3d( 215px,0,-34vw); animation: light2 3s linear infinite; z-index: 4;}
+.carousel3d > .n-1 {-webkit-transform: rotateY( 90deg) translate3d( 215px,0,-33vw); animation: light1 3s linear infinite; z-index: 5;}
+.carousel3d > .n0  {animation: light0 3s linear infinite; z-index: 6;}
+.carousel3d > .n1  {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-33vw); animation: light1 3s linear infinite; z-index: 5;}
+.carousel3d > .n2  {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-34vw); animation: light2 3s linear infinite; z-index: 4;}
+.carousel3d > .n3  {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-35vw); animation: light3 3s linear infinite; z-index: 3;}
+.carousel3d > .n4  {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-36vw); animation: light4 3s linear infinite; z-index: 2;}
+.carousel3d > .n5  {-webkit-transform: rotateY(-90deg) translate3d(-215px,0,-37vw); animation: light5 3s linear infinite; z-index: 1;}
 
 @keyframes light0 {
     0%   {-webkit-box-shadow: 0px 0px 0px 0px aqua;}
